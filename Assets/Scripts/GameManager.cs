@@ -20,8 +20,7 @@ public class GameManager : MonoBehaviour
     private Text textscore = null;
     [SerializeField]
     private Text textlife = null;
-    [SerializeField]
-    private Text textStation = null;
+    
     public PoolManager pool { get; private set; }
     private int score = 0;
     private int highscore = 0;
@@ -103,7 +102,7 @@ public class GameManager : MonoBehaviour
         textscore.text = string.Format("SCORE {0}", score);
         Highscore.text = string.Format("HIGH SCORE {0}", highscore);
         textlife.text = string.Format("LIFE {0}", life);
-        textStation.text = string.Format("STATION LIFE {0}", Stationlife);
+       
         
     }
 }

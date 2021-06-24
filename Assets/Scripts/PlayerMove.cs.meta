@@ -3,7 +3,8 @@ guid: a087900ed9bfbbb4bae375db78fa7f9a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - HammerPrefab: {fileID: 6128297132820552282, guid: 1edfcdb7c45d38c429228a1ddae330e9, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
