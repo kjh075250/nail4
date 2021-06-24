@@ -52,6 +52,27 @@ public class PlayerMove : MonoBehaviour
             
                 
     }
+    private void SpawnOrInstantiate()
+    {
+        if (HammerPrefab == null) return;
+
+        GameObject bullet;
+        if (gameManager.pool.transform.childCount > 0)
+        {
+            bullet = gameManager.pool.transform.GetChild(0).gameObject;
+            bullet.transform.SetParent(transform, false);
+            bullet.transform.position = transform.position;
+            bullet.SetActive(true);
+            bullet.transform.SetParent(null);
+        }
+        else
+        {
+            bullet = Instantiate(HammerPrefab, transform);
+            bullet.transform.SetParent(null);
+        }
+
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (isdamaged) return;

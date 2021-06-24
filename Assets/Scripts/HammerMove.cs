@@ -23,5 +23,7 @@ public class HammerMove : MonoBehaviour
             Destroy(gameObject);
         if (transform.position.y < gameManager.MinPosition.y)
             Destroy(gameObject);
+        if (Input.GetMouseButton(0))
+            Destroy(gameObject);
     }
 }

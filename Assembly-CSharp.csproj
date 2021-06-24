@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{731B93A0-E095-FF79-3AFA-8F7F6CC8E24F}</ProjectGuid>
+    <ProjectGuid>{3CC42832-5626-D4AF-8323-B6E0E71ECAA7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,9 +59,11 @@
     <Compile Include="Assets\Scripts\HammerMove.cs" />
     <Compile Include="Assets\Scripts\BackGroundMove.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\GameOverManager.cs" />
+    <Compile Include="Assets\Scripts\EnemyMeteorMove.cs" />
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\EnemyMeteorMove.cs" />
+    <Compile Include="Assets\Scripts\PoolManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

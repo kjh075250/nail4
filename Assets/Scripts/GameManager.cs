@@ -20,15 +20,23 @@ public class GameManager : MonoBehaviour
     private Text textscore = null;
     [SerializeField]
     private Text textlife = null;
+    [SerializeField]
+    private Text textStation = null;
+    public PoolManager pool { get; private set; }
     private int score = 0;
     private int highscore = 0;
     private int life = 3;
+    private int Stationlife = 5;
 
+    private void Awake()
+    {
+        pool = FindObjectOfType<PoolManager>();
+    }
     private void Start()
     {
         MaxPosition = new Vector2(10f, 3.5f);
         MinPosition = new Vector2(-10f, -4f);
-
+        
         highscore = PlayerPrefs.GetInt("highscore", 0);
         UpdateUI();
         StartCoroutine(SpawnEnemyNail());
@@ -45,6 +53,10 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }
         UpdateUI();
+    }
+    public void Stationdead()
+    {
+
     }
     public void addscore(int addscore)
     {
@@ -91,6 +103,7 @@ public class GameManager : MonoBehaviour
         textscore.text = string.Format("SCORE {0}", score);
         Highscore.text = string.Format("HIGH SCORE {0}", highscore);
         textlife.text = string.Format("LIFE {0}", life);
+        textStation.text = string.Format("STATION LIFE {0}", Stationlife);
         
     }
 }

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
-    private int score = 50;
+    private int score1 = 50;
     [SerializeField]
     protected float speed = 10f;
     
-    private GameManager gameManager = null;
-    private Collider2D col = null;
-    private Animator animator = null;
+    protected GameManager gameManager = null;
+    protected Collider2D col = null;
+    protected Animator animator = null;
    
-    private bool isdead;
+    protected bool isdead;
     private void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
@@ -49,7 +49,7 @@ public class EnemyMove : MonoBehaviour
     }
     private IEnumerator Dead()
     {
-        gameManager.addscore(score);
+        gameManager.addscore(score1);
         col.enabled = false;
         animator.Play("Enemy");
         yield return new WaitForSeconds(0.4f);
