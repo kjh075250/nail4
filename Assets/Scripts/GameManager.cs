@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -25,7 +24,7 @@ public class GameManager : MonoBehaviour
     private int score = 0;
     private int highscore = 0;
     private int life = 3;
-    private int Stationlife = 5;
+ 
 
     private void Awake()
     {
@@ -52,10 +51,6 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }
         UpdateUI();
-    }
-    public void Stationdead()
-    {
-
     }
     public void addscore(int addscore)
     {
@@ -102,7 +97,5 @@ public class GameManager : MonoBehaviour
         textscore.text = string.Format("SCORE {0}", score);
         Highscore.text = string.Format("HIGH SCORE {0}", highscore);
         textlife.text = string.Format("LIFE {0}", life);
-       
-        
     }
 }

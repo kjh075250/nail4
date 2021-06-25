@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
@@ -14,16 +13,13 @@ public class PlayerMove : MonoBehaviour
     [SerializeField]
     private GameObject HammerPrefab = null;
     private bool isdamaged = false;
-    private bool isstoped = false;
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        
-
-    }
-    private IEnumerator Fire()
+    }   
+    private IEnumerator Ani()
     { 
       animator.Play("Player");
       yield return new WaitForSeconds(0.5f);
@@ -33,7 +29,6 @@ public class PlayerMove : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            isstoped = false;
             targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             animator.Play("NailerMove");
             targetPosition.x = Mathf.Clamp(targetPosition.x, gameManager.MinPosition.x, gameManager.MaxPosition.x);
@@ -44,13 +39,11 @@ public class PlayerMove : MonoBehaviour
         {
             if (Hammer == null)
             {
-                StartCoroutine(Fire());
+                StartCoroutine(Ani());
                 Hammer = Instantiate(HammerPrefab, transform);
                 Hammer.transform.SetParent(null);
             }
-        }
-            
-                
+        }    
     }
    
 
