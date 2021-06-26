@@ -1,0 +1,176 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'ko' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/nail4
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+11721
+Successfully changed project path to: C:/nail4
+C:/nail4
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/nail4/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f51)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   26.21.14.3162
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002815 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.842 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006040 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.733 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2528.
+Total: 3.039400 ms (FindLiveObjects: 0.271300 ms CreateObjectMapping: 0.110900 ms MarkObjects: 2.575700 ms  DeleteObjects: 0.079900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprite-0001.png
+  artifactKey: Guid(c849ac5a266f07243b47d902194ea6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite-0001.png using Guid(c849ac5a266f07243b47d902194ea6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89503bcc51aa7abca7033153300f85c') in 0.224578 seconds
+  Import took 0.229900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002401 seconds.
+  path: Assets/Sprite-0001.png
+  artifactKey: Guid(c849ac5a266f07243b47d902194ea6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite-0001.png using Guid(c849ac5a266f07243b47d902194ea6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89503bcc51aa7abca7033153300f85c') in 0.011305 seconds
+  Import took 0.015530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.983793 seconds.
+  path: Assets/Sprite-0001.png
+  artifactKey: Guid(c849ac5a266f07243b47d902194ea6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite-0001.png using Guid(c849ac5a266f07243b47d902194ea6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0c894303d3d2141a2fec6cce74b980') in 0.014424 seconds
+  Import took 0.018785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001656 seconds.
+  path: Assets/Sprite-0001.png
+  artifactKey: Guid(c849ac5a266f07243b47d902194ea6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite-0001.png using Guid(c849ac5a266f07243b47d902194ea6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0c894303d3d2141a2fec6cce74b980') in 0.015170 seconds
+  Import took 0.019851 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.7 MB.
+System memory in use after: 54.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2534.
+Total: 3.486400 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.127900 ms MarkObjects: 3.041800 ms  DeleteObjects: 0.026200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 294.453934 seconds.
+  path: Assets/Sprite/Meteor.png
+  artifactKey: Guid(b99aff65fb949de48949aa8e8dadb8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Meteor.png using Guid(b99aff65fb949de48949aa8e8dadb8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b715d72dfa115d79e69523311df8c96') in 0.027528 seconds
+  Import took 0.032934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Sprite/Sprite-0003-sheet.png
+  artifactKey: Guid(c6f101d103cfb2e4b9dee30b0ec16c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Sprite-0003-sheet.png using Guid(c6f101d103cfb2e4b9dee30b0ec16c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbbb86ac95b3d55a69321b79844ae53') in 0.074480 seconds
+  Import took 0.078645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprite/Sprite-0001.png
+  artifactKey: Guid(a2b7b81e6ac5d8c4d8d8715695c4a551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Sprite-0001.png using Guid(a2b7b81e6ac5d8c4d8d8715695c4a551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5d127df7b674e1fb31f5696e35eca1') in 0.060908 seconds
+  Import took 0.065303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Sprite/Nailer2.png
+  artifactKey: Guid(1366c4cf23733124380c4a0592b492d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Nailer2.png using Guid(1366c4cf23733124380c4a0592b492d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b0b3cf4af97c81a915577613906b33') in 0.048450 seconds
+  Import took 0.052579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprite/Nailer.png
+  artifactKey: Guid(62670e8807c2de4438e0671600a58235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Nailer.png using Guid(62670e8807c2de4438e0671600a58235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5caaf831c9fc1d4e72326e2b47fa56') in 0.047709 seconds
+  Import took 0.052325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Sprite/MeteorBroken-Sheet.png
+  artifactKey: Guid(e60ce9c8db30b054ca30be1fdced0fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/MeteorBroken-Sheet.png using Guid(e60ce9c8db30b054ca30be1fdced0fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d277ebb156751973afe28d192e0054') in 0.025259 seconds
+  Import took 0.029607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprite/nail_enemy.png
+  artifactKey: Guid(24933d2049b30df4481a32e8ab54e291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/nail_enemy.png using Guid(24933d2049b30df4481a32e8ab54e291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0d397403097bc0a99999cf80c5def7') in 0.024482 seconds
+  Import took 0.028627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.227920 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(6f5ab9e87838f9843b047b85dec2a02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(6f5ab9e87838f9843b047b85dec2a02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fbc98157faa4ea70c31fb3eef35cf6') in 0.023083 seconds
+  Import took 0.027435 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
