@@ -736,6 +736,6 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   platform: 13
   scenePathNames:
-  - Assets/Scenes/GameOver.unity
   - Assets/Scenes/Main.unity
+  - Assets/Scenes/GameOver.unity
   playerPath: C:/project/nailer.apk
